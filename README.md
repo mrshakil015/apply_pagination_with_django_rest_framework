@@ -188,7 +188,7 @@ All **DRF views that inherit from `GenericAPIView`**, including:
 
 If we want to go to specific page then used this method:
 
-```json
+```
 http://localhost:8000/api/materials/?page={page_no}
 
 #Example:
@@ -197,7 +197,7 @@ http://localhost:8000/api/materials/?page=2
 
 Suppose every page if we want to show 20, 30, 100 etc. data. They follow this method:
 
-```json
+```
 http://localhost:8000/api/materials/?page_size={page_size}
 
 #Example:
@@ -206,7 +206,7 @@ http://localhost:8000/api/materials/?page_size=3
 
 We can apply `page` and `page_size` at a time
 
-```json
+```
 http://localhost:8000/api/materials/?page={page_no}&page_size={page_size}
 
 #Example:
